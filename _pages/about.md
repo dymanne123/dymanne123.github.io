@@ -9,6 +9,6 @@ redirect_from:
 Hi there!
 I'm Yimin Deng,  a Ph.D. student majoring in Computer Science at Xi'an Jiaotong University, under the advisory of Prof.Xueming Qian, Prof.Li Zhu and Prof.Guoshuai Zhao in [SMILES Lab](http://www.smiles-xjtu.com/). I will join the Joint Ph.D. Program at City University of Hong Kong, in the [AML Lab](https://aml-cityu.github.io/), under the supervision of Prof. [Xiangyu Zhao](https://zhaoxyai.github.io/).
 
-You can find my CV here: [Yimin Deng's CV](../assets/CV_Yimin_Deng)
+You can find my CV here: [Yimin Deng's CV](../assets/CV_Yimin_Deng.pdf)
 
 
