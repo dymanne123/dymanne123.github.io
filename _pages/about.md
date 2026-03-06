@@ -7,8 +7,14 @@ redirect_from:
   - /about.html
 ---
 Hi there!
-I'm Yimin Deng,  a Ph.D. student majoring in Computer Science at Xi'an Jiaotong University, under the advisory of Prof.Xueming Qian, Prof.Li Zhu and Prof.Guoshuai Zhao in [SMILES Lab](http://www.smiles-xjtu.com/). I will join the Joint Ph.D. Program at City University of Hong Kong, in the [AML Lab](https://aml-cityu.github.io/), under the supervision of Prof. [Xiangyu Zhao](https://zhaoxyai.github.io/).
+I'm Yimin Deng, a Ph.D. student majoring in Computer Science at Xi'an Jiaotong University, under the advisory of Prof. Xueming Qian, Prof. Li Zhu and Prof. Guoshuai Zhao in [SMILES Lab](http://www.smiles-xjtu.com/). I am also a visiting Ph.D. student at City University of Hong Kong, in the [AML Lab](https://aml-cityu.github.io/), under the supervision of Prof. [Xiangyu Zhao](https://zhaoxyai.github.io/).
+
+## News
+
+- **Feb 2026**: Paper accepted at **PAKDD 2026**.
+- **May 2025**: Paper accepted at **ACL Findings 2025**.
+- **Sep 2024**: Joined **AML Lab** at City University of Hong Kong, entered the **Joint Ph.D. Program** at City University of Hong Kong - Xi'an Jiaotong University.
+- **Sep 2024**: Paper accepted at **EMNLP Findings 2024**.
+- **Mar 2024**: Started Ph.D. program at **Xi'an Jiaotong University**.
 
 You can find my CV here: [Yimin Deng's CV](../assets/CV_Yimin_Deng.pdf)
-
-
