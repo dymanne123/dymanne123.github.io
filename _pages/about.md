@@ -11,6 +11,8 @@ I'm Yimin Deng, a Ph.D. student majoring in Computer Science at Xi'an Jiaotong U
 
 ## News
 
+- **May 2026**: Paper _Dynamic Multi-Path Retrieval for Knowledge-based Visual Question Answering_ accepted at IJCAI 2026.
+- **Apr 2026**: Three papers accepted at ACL 2026 Findings, and one paper accepted at the ACL 2026 Main Conference.
 - **Feb 2026**: Paper _AEGI: Anchor Event Guided Inference for Temporal Knowledge Graph Question Answering_ accepted at PAKDD 2026. Congrats to my friend Yuqing!
 - **May 2025**: Paper _A Multi-Expert Structural-Semantic Hybrid Framework for Unveiling Historical Patterns in Temporal Knowledge Graphs_ accepted at ACL Findings 2025.
 - **Sep 2024**: Joined AML Lab at City University of Hong Kong, entered the Joint Ph.D. Program at City University of Hong Kong - Xi'an Jiaotong University.
