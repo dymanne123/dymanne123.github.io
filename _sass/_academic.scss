@@ -1,0 +1,184 @@
+/* Compact academic layout shared by the homepage and publications. */
+html {
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0;
+  // The legacy footer script reserves a gap for an absolutely positioned footer.
+  margin-bottom: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1em;
+}
+
+h1 { font-size: 1.4em; }
+h2 { font-size: 1.2em; }
+h3, h4, h5, h6 { font-size: 1em; }
+
+p,
+.page__content p {
+  margin: 0 0 0.5em;
+}
+
+.masthead {
+  position: sticky;
+  height: auto;
+  border-bottom-color: #f2f3f3;
+}
+
+.masthead__inner-wrap {
+  padding: 0.5em 1em;
+}
+
+.masthead__menu-item--lg {
+  padding-right: 1em;
+}
+
+.greedy-nav .visible-links li:first-child {
+  text-wrap: nowrap;
+}
+
+#main {
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+.page__title {
+  margin-top: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #f2f3f3;
+  line-height: 1.2;
+}
+
+.page__content h1,
+.page__content h2 {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #f2f3f3;
+}
+
+.page__content,
+.archive {
+  overflow-wrap: break-word;
+
+  ul, ol {
+    padding-left: 2em;
+  }
+
+  [id] {
+    scroll-margin-top: 5em;
+  }
+}
+
+/* Override the old page-local small print without changing publication content. */
+.archive .publication-list {
+  font-size: 1em;
+  line-height: 1.5;
+
+  li {
+    margin-bottom: 0.75em;
+  }
+}
+
+.sidebar {
+  height: auto;
+  padding-top: 0;
+
+  p, li {
+    font-size: 1em;
+  }
+
+  .author__name {
+    font-size: 1.4em;
+    line-height: 1.2;
+  }
+}
+
+.author__avatar img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-color: #f2f3f3;
+}
+
+.author__urls li {
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.page__footer {
+  position: static;
+  margin-top: auto;
+  background: #fff;
+  border-top-color: #f2f3f3;
+
+  footer {
+    max-width: $large;
+    margin-top: 1em;
+    padding-bottom: 1em;
+
+    @include breakpoint($x-large) {
+      max-width: $x-large;
+    }
+  }
+}
+
+@include breakpoint($large) {
+  .page {
+    padding-right: 0;
+  }
+
+  .sidebar.sticky {
+    position: sticky;
+    top: 6em;
+    max-height: calc(100vh - 7em);
+    overflow-y: auto;
+  }
+
+  .sidebar .author__desktop {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 924px) {
+  .sidebar > [itemtype="http://schema.org/Person"] {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #f2f3f3;
+  }
+
+  .author__avatar {
+    display: block;
+    flex: 0 0 75px;
+    width: 75px;
+  }
+
+  .author__content {
+    display: block;
+    flex: 1;
+    min-width: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+
+  .sidebar .author__name {
+    font-size: 1.2em;
+  }
+
+  .author__urls-wrapper {
+    display: block;
+    flex-shrink: 0;
+  }
+
+  .author__urls {
+    min-width: 160px;
+    z-index: 1;
+  }
+}

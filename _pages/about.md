@@ -11,6 +11,7 @@ I'm Yimin Deng, a Ph.D. student majoring in Computer Science at Xi'an Jiaotong U
 
 ## News
 
+- **Jul 2026**: Paper _Who You Are and Where You Belong: Learning Individual and Group Features for Social Media Video Popularity Prediction_ accepted at ACM MM 2026.
 - **May 2026**: Paper _Dynamic Multi-Path Retrieval for Knowledge-based Visual Question Answering_ accepted at IJCAI 2026.
 - **Apr 2026**: Three papers accepted at ACL 2026 Findings, and one paper accepted at the ACL 2026 Main Conference.
 - **Feb 2026**: Paper _AEGI: Anchor Event Guided Inference for Temporal Knowledge Graph Question Answering_ accepted at PAKDD 2026. Congrats to my friend Yuqing!
